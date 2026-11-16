@@ -1,0 +1,28 @@
+name: BIX spec change or question
+description: Something in the BIX format is wrong, unclear or missing.
+labels: ["spec", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        BIX v0.1 is a draft and changes are expected. Spec discussions belong in the
+        [bix repository](https://github.com/Dasig-org/bix/issues).
+  - type: input
+    id: section
+    attributes:
+      label: Section or resource
+      placeholder: "Task.claim, or 'Project memory: Practices'"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong, unclear or missing
+      description: Include the real-world situation the format can't express, if there is one.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Optional. Elements, an example record (JSON, fictional data), and whether existing records would break.

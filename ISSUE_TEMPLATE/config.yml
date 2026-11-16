@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or early idea
+    url: https://github.com/orgs/Dasig-org/discussions
+    about: Not sure it's a bug or a clear piece of work yet? Start a thread in Dasig-org Discussions.
+  - name: Security or privacy problem
+    url: https://github.com/Dasig-org/.github/blob/main/SECURITY.md
+    about: Please report privately, never in a public issue. This page says how.

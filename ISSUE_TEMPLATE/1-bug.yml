@@ -1,0 +1,53 @@
+name: Something isn't working
+description: A bug in the app, the server, the spec's schemas or the model package.
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please **don't include real people's or real groups' data** (names, phone numbers,
+        photos). Use made-up ones. If this exposes something private, stop and report it privately instead
+        (see SECURITY.md).
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected to see instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen again
+      placeholder: |
+        1. Open a project
+        2. Tap "I'm in" on a step
+        3. ...
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options:
+        - Dasig on Android (APK)
+        - Dasig on the web (volunteer.dasig.org)
+        - Dasig running locally
+        - Bayanihan Server
+        - Bayanihan Core
+        - BIX schemas or validators
+        - Bayani (model or package)
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version, phone and browser
+      description: The app version (in the app's About screen), your phone model, Android version or browser.
+      placeholder: Dasig 0.20.0, Samsung A15, Android 14
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or logs
+      description: Optional. Blur any real names.

@@ -1,0 +1,33 @@
+name: Idea or improvement
+description: Something a group or volunteer needs, or a change you'd like to make.
+labels: ["idea", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Start from the problem, not the solution. The best ideas here begin with a real moment in a group's work:
+        "Our coordinator had to message 30 people one by one to find out who's coming."
+        For big changes, please wait for a maintainer to agree on the approach before writing code.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: Who runs into it (coordinator, volunteer, developer building on BIX), and when?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What you'd suggest
+      description: How it could work. Sketches and screenshots are welcome.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What people do today instead
+      description: Optional. Workarounds, other apps, paper.
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Would you like to work on it?
+      options:
+        - label: Yes, I'd like to build this once the approach is agreed

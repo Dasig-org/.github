@@ -16,6 +16,7 @@ Closes #
 
 - [ ] It's small and does one thing (or I agreed the scope in an issue first)
 - [ ] Checks pass locally (see CONTRIBUTING.md for this repository's command)
+- [ ] Commits are signed off (`git commit -s`, Developer Certificate of Origin; see CONTRIBUTING.md)
 - [ ] Anything a coordinator or volunteer reads is in plain words
 - [ ] No real people's or real groups' data, in code, tests or screenshots
 - [ ] It doesn't weaken privacy (people served stay counts; photos of children stay in the group)

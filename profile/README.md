@@ -28,6 +28,8 @@ they already have, even with no internet. **Dasig** is the app that puts it in p
 > **It's early.** The code started in late October 2026 and is in pilot with a small number of groups. Things change
 > every week. That's also why it's a good moment to join.
 
+**Where it's going:** read the [roadmap](https://github.com/Dasig-org/.github/blob/main/ROADMAP.md).
+
 ## The pieces
 
 | Repository | What it is | Licence | npm |
@@ -58,6 +60,8 @@ they already have, even with no internet. **Dasig** is the app that puts it in p
   people with **iPhones** and **low-end Android phones** (4 GB) in particular.
 - **Coordinators and volunteers:** tell us how your group really works. The format and the app are shaped with
   groups, not for them.
+- **Federations and funders:** help us design how BIX records budgets, fundraising and grants. Start a
+  [discussion](https://github.com/orgs/Dasig-org/discussions) or email hello@dasig.org.
 - **Standards and data people:** read the [BIX spec](https://github.com/Dasig-org/bix/blob/main/spec/BIX_v0.1.md)
   and open an issue where it's wrong, unclear or missing something.
 

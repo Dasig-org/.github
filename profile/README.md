@@ -30,12 +30,12 @@ they already have, even with no internet. **Dasig** is the app that puts it in p
 
 ## The pieces
 
-| Repository | What it is | Licence |
-|---|---|---|
-| [**bix**](https://github.com/Dasig-org/bix) | **BIX, the Bayanihan Information Exchange.** An open format for civic work: groups, projects, teams, steps, needs, offers, and a signed record of who did what. Modelled on FHIR. | Apache-2.0 · spec CC BY 4.0 |
-| [**bayanihan**](https://github.com/Dasig-org/bayanihan) | **Bayanihan Core and Bayanihan Server.** The rules engine that checks every change against BIX, and the reference server that stores records. Runs on a phone, a hub phone, or your own machine. | Core: Apache-2.0 · Server: AGPL-3.0 |
-| [**bayani**](https://github.com/Dasig-org/bayani) | **Bayani**, a small language model for the civic sector. It runs on the phone and helps with a group's project memory. A person approves everything it suggests. | Apache-2.0 |
-| [**dasig-app**](https://github.com/Dasig-org/dasig-app) | **Dasig**, the app for coordinators and volunteers, and the reference app for BIX. Android first, web for everyone else. | AGPL-3.0 |
+| Repository | What it is | Licence | npm |
+|---|---|---|---|
+| [**bix**](https://github.com/Dasig-org/bix) | **BIX, the Bayanihan Information Exchange.** An open format for civic work: groups, projects, teams, steps, needs, offers, and a signed record of who did what. Modelled on FHIR. | Apache-2.0 · spec CC BY 4.0 | [`@bayanihan/bix`](https://www.npmjs.com/package/@bayanihan/bix) |
+| [**bayanihan**](https://github.com/Dasig-org/bayanihan) | **Bayanihan Core and Bayanihan Server.** The rules engine that checks every change against BIX, and the reference server that stores records. Runs on a phone, a hub phone, or your own machine. | Core: Apache-2.0 · Server: AGPL-3.0 | [`@bayanihan/core`](https://www.npmjs.com/package/@bayanihan/core) · [`@bayanihan/server`](https://www.npmjs.com/package/@bayanihan/server) |
+| [**bayani**](https://github.com/Dasig-org/bayani) | **Bayani**, a small language model for the civic sector. It runs on the phone and helps with a group's project memory. A person approves everything it suggests. | Apache-2.0 | [`@bayanihan/bayani`](https://www.npmjs.com/package/@bayanihan/bayani) |
+| [**dasig-app**](https://github.com/Dasig-org/dasig-app) | **Dasig**, the app for coordinators and volunteers, and the reference app for BIX. Android first, web for everyone else. | AGPL-3.0 | — |
 
 ```
            Dasig app  (or any app you build)

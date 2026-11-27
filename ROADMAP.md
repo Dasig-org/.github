@@ -51,7 +51,6 @@ with us. If that's you, open a discussion or email hello@dasig.org.
 
 ## Later
 
-- Linking projects with [Dasig.org](https://dasig.org) fundraising
 - Hosting a Goal on your own Bayanihan Server, and servers that federate
 - Baseline data for a Goal from the Humanitarian Data Exchange (HDX), so coordinators see where the gaps are
 - Mappings to the standards others already use: OCHA 3W, IATI for funding, and Open Referral for services
